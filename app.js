@@ -176,16 +176,10 @@ function gameLogic() {
       assignBadge('Sharp')
       break
     case 50:
-      assignBadge('Champion')
-      break
-    case 100:
       assignBadge('Expert')
       break
-    case 250:
-      assignBadge('Legend')
-      break
-    case 500:
-      assignBadge('Flash')
+    case 100:
+      assignBadge('Champion')
       // end game
       endGame()
       break
